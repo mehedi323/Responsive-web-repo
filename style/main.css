@@ -3,6 +3,11 @@
 *{
   font-family: 'Work Sans', sans-serif;
 }
+
+
+/* button style*/
+
+
 .btn-praimary{
   color: #FFF;
   border-radius: 8px;
@@ -13,6 +18,11 @@
   border: 0;
   cursor: pointer;
 }
+
+
+/* header style */
+
+
 header{
   background-color: rgba(255, 144, 14, 0.10);
   padding: 50px 240px;
@@ -59,10 +69,14 @@ li a{
   line-height: normal;
 
 }
-.banner-drescreption{
+.text-light-gray{
   color: #727272;
-  font-weight: 400;
+  
 }
+
+
+/* main section style */
+/* team section style */
 
 main{
   max-width: 1440px;
@@ -96,13 +110,55 @@ main{
   color: #FF900E;
   font-weight: 700;
 }
-.teams-description{
+ 
+/* facts section style */
+
+.facts-card-container{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-contant{
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  text-align: center;
+  padding: 30px;
+}
+.card-title{
+  font-weight: 600;
   color: #727272;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+.card-stats{
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom:10px ;
 }
 
+/* sponspors section style */
 
 
-
+.sponspors{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.sponspors-title{
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.sponspors-img-container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sponspors-img-container img{
+  width: 166px;
+}
 
 
 
@@ -119,6 +175,16 @@ main{
   }
   .teams-img-container{
     grid-template-columns: 1fr;
+  }
+  .facts-card-container{
+    flex-direction: column;
+  }
+  .team-container{
+    padding-top: 20px;
+    padding-bottom:20px ;
+  }
+  .facts-card-container{
+    gap: 20px;
   }
 }
 
